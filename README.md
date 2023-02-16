@@ -20,10 +20,11 @@ git clone https://github.com/punitchauhan771/video-streaming-app.git
 
 Then, navigate to the cloned directory and install the required Python packages using pip:
 
-bash
-Copy code
+```
 cd video-streaming-app
 pip install -r requirements.txt
+```
+
 Before running the application, you'll need to start the Kafka broker and create a topic to receive the video frames. 
 
 
