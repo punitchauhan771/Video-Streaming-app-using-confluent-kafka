@@ -14,9 +14,10 @@ Getting Started
 
 To get started, clone the repository to your local machine:
 
-bash
-Copy code
+```
 git clone https://github.com/your-username/video-streaming-app.git
+```
+
 Then, navigate to the cloned directory and install the required Python packages using pip:
 
 bash
