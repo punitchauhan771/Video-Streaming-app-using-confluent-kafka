@@ -1,4 +1,4 @@
-#Video Streaming App using Confluent Kafka and Python
+# Video Streaming App using Confluent Kafka and Python
 
 This repository contains a video streaming application built using Confluent Kafka and Python. The application streams video frames from a webcam or a video file, and displays the frames as a live video stream on a Flask web application.
 
@@ -7,7 +7,7 @@ Prerequisites
 To run the application, you'll need the following software installed on your machine:
 
 Python 3.x
-Confluent Kafka cluster
+Confluent Kafka cluster (use web hosted kafka cluster given by confluent)
 OpenCV
 Flask
 Getting Started
@@ -24,12 +24,8 @@ Copy code
 cd video-streaming-app
 pip install -r requirements.txt
 Before running the application, you'll need to start the Kafka broker and create a topic to receive the video frames. 
-sql
-Copy code
-# Start the Kafka broker
-confluent local services start
 
-python consumer.py
+
 The application will start streaming video frames from your webcam, and display them as a live video stream on a Flask web application. 
 To stream video from a file, simply use this command
 ```
