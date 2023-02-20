@@ -15,13 +15,13 @@ Getting Started
 To get started, clone the repository to your local machine:
 
 ```
-git clone https://github.com/punitchauhan771/video-streaming-app.git
+git clone https://github.com/punitchauhan771/Video-Streaming-app-using-confluent-kafka.git
 ```
 
 Then, navigate to the cloned directory and install the required Python packages using pip:
 
 ```
-cd video-streaming-app
+cd Video-Streaming-app-using-confluent-kafka
 pip install -r requirements.txt
 ```
 
