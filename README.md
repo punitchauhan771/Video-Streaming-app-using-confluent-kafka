@@ -10,7 +10,8 @@ Python 3.x
 Confluent Kafka cluster (use web hosted kafka cluster given by confluent)
 OpenCV
 Flask
-Getting Started
+
+###Getting Started
 
 To get started, clone the repository to your local machine:
 
